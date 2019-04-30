@@ -1,6 +1,5 @@
-Attribute VB_Name = "Module1"
 Option Explicit
-Sub ƒZƒ‹ˆÚ“®()
+Sub ã‚»ãƒ«ç§»å‹•()
   Dim a1
   a1 = Cells(1, 3)
   Cells(1, 3).Cut
