@@ -1,7 +1,7 @@
 Attribute VB_Name = "Module1"
 Option Explicit
 Sub 閏年判定()
-    Dim year As Integer, str As String
+    Dim year
     'Cells()
     Cells(1, 2).Clear
     
