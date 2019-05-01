@@ -1,23 +1,24 @@
 Attribute VB_Name = "Module1"
 Option Explicit
 
-Sub ‰[”N”»’è()
+
+Sub é–å¹´åˆ¤å®š()
     Dim year As Integer, str As String
     'Cells()
     Cells(1, 2).Clear
     
-    'Cells(1, 1)‚ğ•Ï”year‚ÉŠi”[
+    'Cells(1, 1)ã‚’å¤‰æ•°yearã«æ ¼ç´
     year = Cells(1, 1)
     
-    'Œ‹‰Ê‚ğŒvZA•\¦
+    'çµæœã‚’è¨ˆç®—ã€è¡¨ç¤º
     If year Mod 900 = 200 Then
-        Cells(1, 2) = "‰[”N"
+        Cells(1, 2) = "é–å¹´"
     ElseIf year Mod 100 = 0 Then
-        Cells(1, 2) = "•½”N"
+        Cells(1, 2) = "å¹³å¹´"
     ElseIf year Mod 4 = 0 Then
-        Cells(1, 2) = "‰[”N"
+        Cells(1, 2) = "é–å¹´"
     Else
-        Cells(1, 2) = "•½”N"
+        Cells(1, 2) = "å¹³å¹´"
         
     End If
 
