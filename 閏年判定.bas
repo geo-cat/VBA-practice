@@ -1,8 +1,9 @@
 Attribute VB_Name = "Module1"
 Option Explicit
 Sub 閏年判定()
+    '変数yearを宣言する。
     Dim year
-    'Cells()
+    'Cells(1, 2)を空っぽにする
     Cells(1, 2).Clear
     
     'Cells(1, 1)を変数yearに格納
