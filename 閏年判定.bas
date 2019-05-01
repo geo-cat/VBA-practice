@@ -11,7 +11,7 @@ Sub 閏年判定()
     year = Cells(1, 1)
     
     '結果を計算、表示
-    If year Mod 900 = 200 Then
+    If year Mod 900 = 200 Or 600 Then
         Cells(1, 2) = "閏年"
     ElseIf year Mod 100 = 0 Then
         Cells(1, 2) = "平年"
