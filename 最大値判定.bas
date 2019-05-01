@@ -1,17 +1,19 @@
 Attribute VB_Name = "Module1"
 Option Explicit
 
-Sub Å‘å’l”»’è()
- 
-  Dim Maxval As Long, minVal As Long
+
+Sub æœ€å¤§å€¤åˆ¤å®š()
+ 'å¤‰æ•°Maxvalã®å®£è¨€
+ Dim Maxval As Long, minVal As Long
   
-  Cells(2, 1).Clear
+ Cells(2, 1).Clear
  
-  'Excel‚Ìƒ[ƒNƒV[ƒgŠÖ”‚ğg‚¤
+  'Excelã®ãƒ¯ãƒ¼ã‚¯ã‚·ãƒ¼ãƒˆé–¢æ•°ã‚’ä½¿ç”¨ã™ã‚‹
   With Application.WorksheetFunction
  
-  'ƒZƒ‹B2`H8‚Ü‚Å‚ÌƒZƒ‹‚É‹L“ü‚³‚ê‚½”’l‚ÌÅ‘å’l, Å¬’l‚ğ‹‚ß‚é
+  'Cells(1, 1)ã‹ã‚‰Cells(1, 10)ã¾ã§ã®æ•°å€¤ã®æœ€å¤§å€¤ã‚’æ±‚ã‚ã€å¤‰æ•°Maxvalã«æ ¼ç´ã™ã‚‹ã€‚
        Maxval = .MAX(Range(Cells(1, 1), Cells(1, 10)))
+ 'Cells(2, 1)ã«Maxvalã‚’å‡ºåŠ›
        Cells(2, 1) = Maxval
   End With
   
