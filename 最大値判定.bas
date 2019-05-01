@@ -4,7 +4,7 @@ Option Explicit
 
 Sub 最大値判定()
  '変数Maxvalの宣言
- Dim Maxval As Long, minVal As Long
+ Dim Maxval
   
  Cells(2, 1).Clear
  
