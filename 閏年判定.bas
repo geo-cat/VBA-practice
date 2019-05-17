@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module1"
 Option Explicit
 Sub 閏年判定()
     '変数yearを宣言する。
