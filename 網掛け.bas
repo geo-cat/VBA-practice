@@ -1,12 +1,11 @@
-Attribute VB_Name = "Module1"
-Sub �Ԋ|��()
+Sub 網掛け()
 
-'�S�ẴZ���̑I��
+'全てのセルの選択
   With Cells
-    ' �Ԋ|���̎�ނ�I���i�p�^�[���͂������񂠂�j
+    ' 網掛けの種類を選択（パターンはたくさんある）
     .Interior.Pattern = xlGray25
        
-    ' �Ԋ|���̐F�̃N���A����������ɃZ�����܂�����ɂ���̂Ɏg����
+    ' 網掛けの色のクリア実験した後にセルをまっさらにするのに使える
     '.Interior.Pattern = xlNone
   End With
 
