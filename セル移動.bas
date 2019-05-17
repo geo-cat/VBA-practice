@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module1"
 Option Explicit
 Sub セル移動()
   Dim a1
